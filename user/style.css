@@ -1,0 +1,63 @@
+html, body {
+font-family: Times New Roman;
+color:#F4D0E7;
+font-size: medium;
+}
+h1 {
+text-align: center;
+color: #CC0066;
+border-radius: 25px 25px 0 0;
+}
+#bekas {
+width: 1000px;
+margin: auto;
+border-radius: 15px;
+}
+table {
+margin: auto;
+}
+#bill {
+width: 50px;
+}
+#fcomponent {
+width: 50px;
+}
+#meja {
+width: 250px;
+margin: 10px auto;
+border-collapse: collapse;
+}
+#meja th, #meja td {
+border: solid thin #CC0066;
+padding: 5px;
+}
+#meja th {
+background-color:;
+color: #CC0066;
+font-size: 18px;
+}
+#meja th:nth-child(1) {
+width: 40px;
+}
+#meja th:nth-child(3) {
+width: 0px;
+}
+#meja th:nth-child(4) {
+width: 80px;
+}
+#meja tr {
+text-align: center;
+}
+#meja tr:nth-child(odd) {
+background-color: pink ;
+}
+#meja td:nth-child(2) {
+text-align: left;
+}
+#meja a {
+color:#CC0066;
+text-decoration:none;
+}
+#meja a:hover {
+color:blue;
+}

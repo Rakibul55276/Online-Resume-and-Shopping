@@ -1,0 +1,26 @@
+h1 {
+      font-family:Times New Roman;
+      font-style: italic;
+      text-shadow: 1px 1px 2px purple, 0 0 25px purple, 0 0 5px pink ;
+      text-align: center;
+      text-decoration: underline
+   }
+
+#main {
+      width:800px;
+      height:450px;
+      padding-top: 5px;
+      display: -webkit-flex; /* Safari */
+      -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+      -webkit-align-content: space-around; /* Safari 7.0+ */
+      display: flex;
+      flex-flow: row wrap;
+      align-content: space-around;
+      margin: auto;
+      padding-left: 5px;
+   }
+
+#main div {
+      width:550px;
+      height:250px;   
+   }

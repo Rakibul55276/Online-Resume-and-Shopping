@@ -1,0 +1,54 @@
+
+  body{
+          font-family: 'Helvetica Neue','Helvetica', Arial, sans-serif;
+          font-weight: bold;
+    }
+  
+    h1{
+        font-family:Times New Roman;
+        font-style: italic;
+        font-size: 20pt;
+        text-shadow: 1px 1px 2px purple, 0 0 25px white, 0 0 5px white;
+        text-align: center;
+        text-decoration: underline 
+    }
+
+
+    #main{
+        width: 1000px;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+        -webkit-align-content: space-around; /* Safari 7.0+ */
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-around;
+        margin: auto;
+    }
+  
+   /* #main div{
+        width:600px;
+        height:500px;
+    }*/
+   
+   h3 {
+    border: 1px solid black;
+    text-decoration: none;
+   }
+    
+/*  #button {
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: #eff;*/

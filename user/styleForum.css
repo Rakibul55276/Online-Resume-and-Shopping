@@ -1,0 +1,93 @@
+html, body {
+font-family: Times New Romen;
+color:White
+font-size: medium;
+}
+
+h1 {
+text-align: center;
+color: #CC0066;
+border-radius: 25px 25px 0 0;
+}
+
+table {
+margin: auto;
+}
+
+#meja {
+width: 740px;
+margin: 10px auto;
+border-collapse: collapse;
+}
+
+#meja th, #meja td {
+border: solid thin #CC0066;
+padding: 5px;
+}
+
+#meja th {
+background-color: ;
+color: #CC0066;
+font-size: 18px;
+}
+
+#meja th:nth-child(1) {
+width: 40px;
+}
+
+#meja th:nth-child(2) {
+width: 1000px;
+}
+
+#meja th:nth-child(3) {
+width: 1000px;
+}
+
+#meja th:nth-child(4) {
+width: 1000px;
+}
+
+#meja th:nth-child(5) {
+width: 1000px;
+}
+
+#meja th:nth-child(6) {
+width: 1000px;
+}
+
+#meja th:nth-child(7) {
+width: 1000px;
+}
+
+#meja th:nth-child(8) {
+width: 1000px;
+}
+
+#meja th:nth-child(9) {
+width: 1000px;
+}
+
+#meja th:nth-child(10) {
+width: 1000px;
+}
+
+#meja tr {
+text-align: center;
+}
+
+#meja tr:nth-child(odd) {
+background-color: Pink;
+}
+
+#meja td:nth-child(2) {
+text-align: left;
+}
+
+#meja a {
+color:black;
+text-decoration:none;
+}
+
+#meja a:hover {
+color: Red;
+}
