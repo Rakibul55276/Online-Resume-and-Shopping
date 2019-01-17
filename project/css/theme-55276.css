@@ -1,0 +1,380 @@
+/* =================================================================== 
+ * TMT2654~G05(SE)- Web Based System Development
+ * Rakibul Islam(55276)
+ * Assignment - 20%
+ * Due Date - 9th April 2018
+ *  ------------------------------------------------------------------
+ *
+ *  TOC:
+ *  # webfonts and iconfonts
+ *  # web animation
+ *  # base style overrides
+ *      ## links
+ *  # typography & general theme styles
+ *      ## responsive grid container
+ *      ## lists
+ *  # header styles
+ *      ## header image
+ *  # about
+ *      ## location
+ *      ## profiles
+ *  # work
+ *  # award
+ *  # language
+ *  # skill
+ *  # interest
+ *  # reference
+ *  # footer
+ *  # responsive device orientation
+ * =================================================================== */
+
+
+
+ /* ===================================================================
+ *                     # webfonts and iconfonts
+ *
+ * ------------------------------------------------------------------- */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+}
+
+
+
+
+/* ===================================================================
+ *                     # base style overrides
+ *
+ * ------------------------------------------------------------------- */
+
+ @charset "UTF-8";
+/* RESET */
+/* ----------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+
+
+body {
+  background: url(img/bg-11-full.jpg) no-repeat ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+header h1{
+	background-color:rgba(50,50,50,0.5);
+	color: yellow;
+	padding: 20px;
+	text-align: center;
+	font-family: "Times New Roman";
+	width: 100%;
+}
+header img {
+	display: block;
+	margin: 65px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+	height: 45%;
+	width: 15%;
+	box-shadow: 1px 1px 10px black;
+}
+
+/* ===================================================================
+ *                # typography & general theme styles 
+ * 
+ * ------------------------------------------------------------------- */
+
+section {
+	margin: 40px auto 40px;
+	padding: 10px;
+	width: 60%;
+	background-color: #DDDDDE;
+	border: 1px solid #aaa;
+	box-shadow: 10px 10px 10px #aaa;
+	text-align: center;
+}
+
+section{
+    padding: 20px;
+    transition: box-shadow 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+section:hover{
+    box-shadow: 10px 10px 20px black;
+    transform: scale(1.10);
+}
+
+
+/* ------------------------------------------------------------------- 
+ *                          ## logo
+ * ------------------------------------------------------------------- */
+
+.logo
+{
+	border-radius: 50%;
+}
+
+/* ------------------------------------------------------------------- 
+ *                          ## about
+ * ------------------------------------------------------------------- */
+
+.about
+{
+	background-repeat: none;
+	background : url(img/b2.jpg) repeat  ;
+}
+
+/* ------------------------------------------------------------------- 
+ *                          ## summary
+ * ------------------------------------------------------------------- */
+
+.summary
+{
+	color: brown;
+}
+
+/* ------------------------------------------------------------------- 
+ *                          ## contact
+ * ------------------------------------------------------------------- */
+
+.contact
+{
+display: inline-block;
+    width: 60%;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+    border-style: solid;
+    line-height: 20px;
+    background-color: purple;
+}
+
+
+/* ------------------------------------------------------------------- 
+ *                          ## work
+ * ------------------------------------------------------------------- */
+
+.work
+{
+	background : url(img/bg-1.jpg) repeat  ;
+}
+
+.works
+{
+
+	margin-top: 20px;
+	background-color: #808000;
+	border-style: solid;
+	border-color: black;
+	font-family: Geneva;
+}
+
+/* ------------------------------------------------------------------- 
+ *                          ## lists 
+ * ------------------------------------------------------------------- */
+
+.works ul
+{
+	list-style-type: none;
+	align-items: center;
+}
+
+
+/* ------------------------------------------------------------------- 
+ *                          ## location
+ * ------------------------------------------------------------------- */
+
+.location {
+	margin-top: 20px;
+	background-color: #d13d76;
+	border-style: solid;
+	border-color: black;
+}
+
+
+/* ------------------------------------------------------------------- 
+ *                          ## awards
+ * ------------------------------------------------------------------- */
+
+.awards
+{
+margin-top: 20px;
+	background-color: #ffc0cb;
+	border-style: solid;
+	border-color: black;
+
+}
+.award
+{
+	background : url(img/wow.jpg) repeat  ;
+}
+
+
+
+/* ------------------------------------------------------------------- 
+ *                          ## interests
+ * ------------------------------------------------------------------- */
+
+.interest
+{
+	background : url(img/bg-8.jpg) repeat  ;
+}
+
+.interests
+{
+	margin-top: 20px;
+	background-color: green;
+	border-style: solid;
+	border-color: black;
+}
+
+.interests ul
+{
+	list-style-type: none;
+	align-items: center;
+}
+
+/* ------------------------------------------------------------------- 
+ *                          ## profiles
+ * ------------------------------------------------------------------- */
+
+.profiles {
+
+	margin-top: 20px;
+	background-color: #ff4500;
+	border-style: solid;
+	border-color: black;
+	
+}
+
+
+/* ------------------------------------------------------------------- 
+ *                          ## skills
+ * ------------------------------------------------------------------- */
+
+
+
+.skills
+{
+	margin-top: 20px;
+	background-color: #74d13c;
+	border-style: solid;
+	border-color: black;
+
+
+}
+
+.skill
+{
+	background : url(img/bg15.jpg) repeat  ;
+	text-align: center;
+}
+
+
+.skills ul
+{
+	list-style-type: none;
+	align-items: center;
+}
+
+
+/* ------------------------------------------------------------------- 
+ *                   # references
+ * ------------------------------------------------------------------- */
+
+
+.reference
+{
+	background : url(img/form2.jpg) repeat  ;
+}
+
+.references
+{
+	margin-top: 20px;
+	background-color: #74d13c;
+	border-style: solid;
+	border-color: black;
+}
+
+
+
+
+/* ------------------------------------------------------------------- 
+ *                   # Language
+ * ------------------------------------------------------------------- */
+
+
+.language
+{
+	background : url(img/bg-12.jpg) repeat  ;
+}
+
+
+.languages {
+	margin-top: 20px;
+	background-color: #3d76d1;
+	border-style: solid;
+	border-color: black;
+	font-family: Geneva;
+}
+/* ------------------------------------------------------------------- 
+ *                          ## lists 
+ * ------------------------------------------------------------------- */
+ul {
+	margin-top: 5px;
+	margin-left: 50px;
+}
+li {
+	padding-left: 10px;
+}
+h2, h3 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+p {
+	margin-top: 10px;
+	text-align: center;
+	text-decoration-color: white;
+	font-family: Courier;
+	word-spacing: 3.5px;
+	border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+/* ------------------------------------------------------------------- 
+ *                   # footer
+ * ------------------------------------------------------------------- */
+
+#footer{
+	background-color: blue;
+	overflow: hidden;
+	margin-top: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 5px;
+
+
+}
