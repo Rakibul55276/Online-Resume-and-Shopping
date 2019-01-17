@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+/* Starter CSS for Menu */
+#cssmenu {
+padding: 0;
+margin: 0;
+border: 0;
+width: auto;
+}
+#cssmenu ul,
+#cssmenu li {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#cssmenu ul {
+position: relative;
+z-index: 597;
+}
+#cssmenu ul li {
+float: left;
+min-height: 1px;
+vertical-align: middle;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+position: relative;
+z-index: 599;
+cursor: default;
+}
+#cssmenu ul ul {
+visibility: hidden;
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 598;
+width: 100%;
+}
+#cssmenu ul ul li {
+float: none;
+}
+#cssmenu ul ul ul {
+top: 0;
+left: 190px;
+width: 190px;
+}
+#cssmenu ul li:hover > ul {
+visibility: visible;
+}
+#cssmenu ul ul {
+bottom: 0;
+left: 0;
+}
+#cssmenu ul ul {
+margin-top: 0;
+}
+#cssmenu ul ul li {
+font-weight: normal;
+}
+#cssmenu a {
+display: block;
+line-height: 1em;
+text-decoration: none;
+}
+/* Custom CSS Styles */
+#cssmenu {
+background: white;
+-moz-box-shadow: 0 0 5px 5px #EF75C1;-webkit-box-shadow: 0 0 5px 5px #EF75C1;box-shadow: 0 0 5px 5px #EF75C1;
+border-bottom: 4px solid #CC0066;
+font-family: Times New Roman;
+font-size: 12px;
+}
+#cssmenu > ul {
+*display: inline-block;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+content: '';
+display: block;
+clear: both;
+}
+#cssmenu ul {
+text-transform: ;
+}
+#cssmenu ul ul {
+border-top: 4px solid #CC0066;
+text-transform: none;
+min-width: 190px;
+}
+#cssmenu ul ul a {
+background:  linear-gradient(#4B0082,	#FF00FF) ;
+color: #ffffff;
+border: 1px solid #8B008B;
+border-top: 0 none;
+line-height: 150%;
+padding: 9px 9px;
+font-size: 18px;
+font-weight: bold;
+}
+#cssmenu ul ul ul {
+border-top: 0 none;
+}
+#cssmenu ul ul li {
+position: relative;
+}
+#cssmenu ul ul li:first-child > a {
+border-top: 1px solid #8B008B;
+}
+#cssmenu ul ul li:hover > a {
+background: linear-gradient(#FFFFCC,#FF66CC);
+color: black;
+}
+#cssmenu ul ul li:last-child > a {
+-moz-border-radius: 0 0 3px 3px;
+-webkit-border-radius: 0 0 3px 3px;
+border-radius: 0 0 3px 3px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+-moz-box-shadow: 0 1px 0 #8B008B;
+-webkit-box-shadow: 0 1px 0 #8B008B;
+box-shadow: 0 1px 0 #8B008B;
+}
+#cssmenu ul ul li:last-child:hover > a {
+-moz-border-radius: 0 0 0 3px;
+-webkit-border-radius: 0 0 0 3px;
+border-radius: 0 0 0 3px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+}
+#cssmenu ul ul li.has-sub > a:after {
+/*content: '+';*/
+position: absolute;
+top: 50%;
+right: 15px;
+margin-top: -8px;
+}
+#cssmenu ul li:hover > a,
+#cssmenu ul li.active > a {
+background:linear-gradient(white,#800080) ;
+-moz-box-shadow: 0 0 5px 5px #EF75C1;-webkit-box-shadow: 0 0 5px 5px #EF75C1;box-shadow: 0 0 5px 5px #EF75C1;
+color: #ffffff;
+}
+#cssmenu ul li.has-sub > a:after {
+/*content: '+';*/
+margin-left: 5px;
+}
+#cssmenu ul li.last ul {
+left: auto;
+right: 0;
+}
+#cssmenu ul li.last ul ul {
+left: auto;
+right: 99.5%;
+}
+#cssmenu a {
+background: white;
+color: black;
+padding: 0 20px;
+-moz-box-shadow: 0 0 5px 5px #EF75C1;-webkit-box-shadow: 0 0 5px 5px #EF75C1;box-shadow: 0 0 5px 5px #EF75C1;
+}
+#cssmenu > ul > li > a {
+line-height: 40px;
+font-size: 12px;
+font-size: 18px;
+font-weight: bold;
+}
+#geer{
+text-align: center;
+cursor: pointer;
+}
+#geer:hover{
+color: blue;
+}

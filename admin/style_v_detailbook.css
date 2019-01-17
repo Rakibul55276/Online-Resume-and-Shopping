@@ -1,0 +1,19 @@
+#v_detailbook{
+width:900px;
+height: 600px;
+border: 5px solid white;
+display: -webkit-flex; /* Safari */
+-webkit-flex-flow: row wrap; /* Safari 6.1+ */
+-webkit-align-content: space-around; /* Safari 7.0+ */
+display: flex;
+flex-flow: row wrap;
+align-content: space-around;
+margin: auto;
+/*    opacity: 0.7;
+filter: Alpha(opacity=50); /* IE8 and earlier */
+*/   
+}
+#main div {
+width:500px;
+height:550px;
+}
